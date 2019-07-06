@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\StackForce\\market\\market\\market.API\\market.API.csproj": {}
+    "C:\\StackForce\\market\\market\\DatingApp\\market.API\\market.API.csproj": {}
   },
   "projects": {
-    "c:\\StackForce\\market\\market\\market.API\\market.API.csproj": {
+    "C:\\StackForce\\market\\market\\DatingApp\\market.API\\market.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\StackForce\\market\\market\\market.API\\market.API.csproj",
+        "projectUniqueName": "C:\\StackForce\\market\\market\\DatingApp\\market.API\\market.API.csproj",
         "projectName": "market.API",
-        "projectPath": "c:\\StackForce\\market\\market\\market.API\\market.API.csproj",
+        "projectPath": "C:\\StackForce\\market\\market\\DatingApp\\market.API\\market.API.csproj",
         "packagesPath": "C:\\Users\\Spyros\\.nuget\\packages\\",
-        "outputPath": "c:\\StackForce\\market\\market\\market.API\\obj\\",
+        "outputPath": "C:\\StackForce\\market\\market\\DatingApp\\market.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

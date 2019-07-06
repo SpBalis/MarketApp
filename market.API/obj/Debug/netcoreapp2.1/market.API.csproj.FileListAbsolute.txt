@@ -26,3 +26,17 @@ c:\StackForce\market\market\market.API\obj\Debug\netcoreapp2.1\market.API.Assemb
 c:\StackForce\market\market\market.API\obj\Debug\netcoreapp2.1\market.API.RazorTargetAssemblyInfo.cache
 c:\StackForce\market\market\market.API\obj\Debug\netcoreapp2.1\market.API.dll
 c:\StackForce\market\market\market.API\obj\Debug\netcoreapp2.1\market.API.pdb
+C:\StackForce\market\market\DatingApp\market.API\bin\Debug\netcoreapp2.1\market.API.deps.json
+C:\StackForce\market\market\DatingApp\market.API\bin\Debug\netcoreapp2.1\market.API.runtimeconfig.json
+C:\StackForce\market\market\DatingApp\market.API\bin\Debug\netcoreapp2.1\market.API.runtimeconfig.dev.json
+C:\StackForce\market\market\DatingApp\market.API\bin\Debug\netcoreapp2.1\market.API.dll
+C:\StackForce\market\market\DatingApp\market.API\bin\Debug\netcoreapp2.1\market.API.pdb
+C:\StackForce\market\market\DatingApp\market.API\obj\Debug\netcoreapp2.1\market.API.csprojAssemblyReference.cache
+C:\StackForce\market\market\DatingApp\market.API\obj\Debug\netcoreapp2.1\market.API.csproj.CoreCompileInputs.cache
+C:\StackForce\market\market\DatingApp\market.API\obj\Debug\netcoreapp2.1\market.API.RazorAssemblyInfo.cache
+C:\StackForce\market\market\DatingApp\market.API\obj\Debug\netcoreapp2.1\market.API.RazorAssemblyInfo.cs
+C:\StackForce\market\market\DatingApp\market.API\obj\Debug\netcoreapp2.1\market.API.AssemblyInfoInputs.cache
+C:\StackForce\market\market\DatingApp\market.API\obj\Debug\netcoreapp2.1\market.API.AssemblyInfo.cs
+C:\StackForce\market\market\DatingApp\market.API\obj\Debug\netcoreapp2.1\market.API.RazorTargetAssemblyInfo.cache
+C:\StackForce\market\market\DatingApp\market.API\obj\Debug\netcoreapp2.1\market.API.dll
+C:\StackForce\market\market\DatingApp\market.API\obj\Debug\netcoreapp2.1\market.API.pdb
