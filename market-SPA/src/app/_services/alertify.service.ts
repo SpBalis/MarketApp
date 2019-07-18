@@ -5,18 +5,17 @@ declare let alertify: any;
   providedIn: 'root'
 })
 export class AlertifyService {
-
-constructor() { }
+  constructor() {}
 
   confirm(message: string, okCallback: () => any) {
     alertify.confirm(message, function(e) {
-     if (e) {
+      if (e) {
         okCallback();
       } else {}
     });
   }
 
-  success(message: string){
+  success(message: string) {
     alertify.success(message);
   }
 

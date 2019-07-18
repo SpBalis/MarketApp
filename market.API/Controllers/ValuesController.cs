@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using market.API.Data;
-using Microsoft.EntityFrameworkCore;
+using DatingApp.API.Data;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
-namespace market.API.Controllers
+namespace DatingApp.API.Controllers
 {
-    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
@@ -18,21 +17,25 @@ namespace market.API.Controllers
         public ValuesController(DataContext context)
         {
             _context = context;
-
         }
-        [AllowAnonymous]
+
+        // GET api/values
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         public async Task<IActionResult> GetValues()
         {
             var values = await _context.Values.ToListAsync();
+
             return Ok(values);
         }
 
-        [AllowAnonymous]
+        // GET api/values/5
+        [Authorize(Roles = "Member")]
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetValues(int id)
+        public async Task<IActionResult> GetValue(int id)
         {
-            var value = await _context.Values.FirstOrDefaultAsync(x =>x.Id == id);
+            var value = await _context.Values.FirstOrDefaultAsync(x => x.Id == id);
+
             return Ok(value);
         }
 

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "market-SPA": {
+    "DatingApp-SPA": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/market-SPA",
+            "outputPath": "../DatingApp.API/wwwroot",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -24,11 +24,11 @@
             ],
             "styles": [
               "src/styles.css"
+
             ],
             "scripts": [
               "node_modules/alertifyjs/build/alertify.min.js"
-            ],
-            "es5BrowserSupport": true
+            ]
           },
           "configurations": {
             "production": {
@@ -46,32 +46,25 @@
               "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
-              "buildOptimizer": true,
-              "budgets": [
-                {
-                  "type": "initial",
-                  "maximumWarning": "2mb",
-                  "maximumError": "5mb"
-                }
-              ]
+              "buildOptimizer": true
             }
           }
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "market-SPA:build"
+            "browserTarget": "DatingApp-SPA:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "market-SPA:build:production"
+              "browserTarget": "DatingApp-SPA:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "market-SPA:build"
+            "browserTarget": "DatingApp-SPA:build"
           }
         },
         "test": {
@@ -105,20 +98,19 @@
         }
       }
     },
-    "market-SPA-e2e": {
+    "DatingApp-SPA-e2e": {
       "root": "e2e/",
       "projectType": "application",
-      "prefix": "",
       "architect": {
         "e2e": {
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "market-SPA:serve"
+            "devServerTarget": "DatingApp-SPA:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "market-SPA:serve:production"
+              "devServerTarget": "DatingApp-SPA:serve:production"
             }
           }
         },
@@ -134,5 +126,5 @@
       }
     }
   },
-  "defaultProject": "market-SPA"
+  "defaultProject": "DatingApp-SPA"
 }
